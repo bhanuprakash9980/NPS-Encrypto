@@ -21,7 +21,7 @@ const RSA = () => {
       };
       const formData = { msg: plaintext };
       const res = await axios.post(
-        `http://nps.debugentity.me/rsa`,
+        `https://nps.debugentity.me/rsa`,
         formData,
         config
       );

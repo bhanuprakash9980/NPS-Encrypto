@@ -21,7 +21,7 @@ const OTP = () => {
       };
       const formData = { msg: plaintext };
       const res = await axios.post(
-        `http://nps.debugentity.me/otp`,
+        `https://nps.debugentity.me/otp`,
         formData,
         config
       );
