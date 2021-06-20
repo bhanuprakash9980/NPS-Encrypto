@@ -21,7 +21,7 @@ const DES = () => {
       };
       const formData = { msg: plaintext };
       const res = await axios.post(
-        `https://nps.debugentity.me/3des`,
+        `https://nps.bhanuprakash.tech/3des`,
         formData,
         config
       );

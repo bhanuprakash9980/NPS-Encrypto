@@ -21,7 +21,7 @@ const XOR = () => {
       };
       const formData = { msg: plaintext };
       const res = await axios.post(
-        `https://nps.debugentity.me/xor`,
+        `https://nps.bhanuprakash.tech/xor`,
         formData,
         config
       );

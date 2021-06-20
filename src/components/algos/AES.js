@@ -21,7 +21,7 @@ const AES = () => {
       };
       const formData = { msg: plaintext };
       const res = await axios.post(
-        `https://nps.debugentity.me/aes`,
+        `https://nps.bhanuprakash.tech/aes`,
         formData,
         config
       );
